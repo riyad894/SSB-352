@@ -1,319 +1,542 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>This is our first class</title>
-    <link rel="icon" href="images/logo.jpg" cellpaching="0">
+    <meta charset="UTF-8">
+    <meta htpp-equiv="X-UA-Compattble"Content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is our second first class</title>
+    <link rel="icon" href="images/logo.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        border{
+            color: rgb(47, 255, 0);
+            background-color: rgba(241, 11, 11, 0);
+        }
+       body{
+           color: rgb(1, 5, 243);
+           background-color:black;
+       }
+       .SI{
+           color: tomato;
+           background-color: yellow;
+       }
+       .SI1{
+           color: #cac4c4; 
+           background-color: rgb(46, 40, 97); 
+       }
+       .SI2{
+           color: brown;
+           background-color: chartreuse;
+       }
+       .SI3{
+           color: rgb(200, 200, 219);
+           background-color: rgb(51, 8, 194);
+       }
+       .SI4{
+           color: rgb(237, 236, 240);
+           background-color: rgba(194, 9, 9, 0.626);
+       }
+       .SI5{
+           color:red;
+           background-color: rgb(247, 237, 239);
+       }
+       .SI6{
+           color: rgb(13, 238, 114);
+           background-color: rgb(13, 3, 80);
+       }
+       .SI7{
+           color: rgb(233, 231, 226);
+           background-color: #ec0524;
+       }
+       .SI8{
+           color:red;
+           background-color:#008000;
+       }
+       .SI9{
+           color: rgb(5, 19, 211);
+           background-color: black;
+       }
+       .SI10{
+           color: darkorchid;
+           background-color: yellow;
+       }
+       .SI11{
+           color: rgb(39, 10, 201);
+           background-color: white;
+       }
+       .SI12{
+           color: violet;
+           background-color: navy;
+       }
+       .SI13{
+           color: rgba(245, 245, 12, 0.857);
+           background-color: rebeccapurple;
+       }
+       .SI14{
+           color: rgb(13, 3, 80);
+           background-color: tan;
+       }
+       .SI15{
+           color: #40e08d;
+           background-color: rgb(170, 102, 102);
+       }
+       .SI16{
+           color: rgb(159, 228, 23);
+           background-color: rgb(88, 71, 71);
+       }
+       .SI17{
+           color: rgb(207, 22, 207);
+           background-color: rgb(250, 250, 10);
+       }
+       .SI18{
+           color: rgb(243, 14, 14);
+           background-color: blue;
+       }
+       .SI19{
+           color:black;
+           background-color: rgb(7, 238, 53);
+       }
+       .SI20{
+           color: blanchedalmond;
+           background-color: blue ;
+       }
+       .SI21{
+           color: chartreuse;
+           background-color: coral;
+       }
+       .SI22{
+           color: crimson;
+           background-color: #f7fdfd;
+       }
+       .SI23{
+           color: #e6e9e6;
+           background-color: darkmagenta;
+       }
+       .SI24{
+           color: darkolivegreen;
+           background-color: darkred;
+       }
+       .SI25{
+           color: darkred;
+           background-color: darkslategray;
+       }
+       .SI26{
+           color: #000000;
+           background-color: #e6e9e6;
+       }
+       .SI27{
+           color: #f7fdfd;
+           background-color: black;
+       }
+       .SI28{
+           color: blue;
+           background-color: chartreuse;
+       }
+       .SI29{
+           color: chartreuse;
+           background-color: blue;
+       }
+       .SI30{
+           color: rgb(248, 246, 246);
+           background-color: magenta;
+       }
+       .SI31{
+           color: rgb(4, 151, 46);
+           background-color: moccasin;
+       }
+       .SI32{
+           color: navy;
+           background-color: olive;
+       }
+       .SI33{
+           color: orangered;
+           background-color: paleturquoise;
+       }
+       .SI34{
+           color: rgb(13, 255, 0);
+           background-color: rebeccapurple;
+       }
+       .SI35{
+           color: rgb(255, 0, 0);
+           background-color: rgb(13, 3, 80);
+       }
+       .SI36{
+           color: rgb(169, 137, 169);
+           background-color: rgb(243, 14, 14);
+       }
+       .SI37{
+           color: rgb(5, 19, 211);
+           background-color: rgb(7, 238, 53);
+       }
+       .SI38{
+           color: red;
+           background-color: rgba(245, 245, 12, 0.857);
+       }
+       .SI39{
+           color: rgb(207, 22, 207);
+           background-color: rgb(46, 40, 97);
+       }
+       .SI40{
+           color: rgb(14, 6, 253);
+           background-color: rgba(245, 245, 12, 0.857);
+       }
+       .SI41{
+           color: rgba(245, 245, 12, 0.857);
+           background-color: rgb(54, 33, 190);
+       }
+       .SI42{
+           color: rgb(255, 0, 0);
+           background-color: tan;
+       }
+       .SI43{
+           color: rgb(0, 0, 0);
+           background-color: rgb(4, 231, 12);
+       }
+       .SI44{
+           color: slateblue;
+           background-color: yellow;
+       }
+       .SI45{
+           color: rgb(7, 238, 53);
+           background-color: rgba(194, 9, 9, 0.626);
+       }
+       .SI46{
+           color: rgb(7, 69, 255);
+           background-color: springgreen;
+       }
+       .SI47{
+           color: rgb(255, 255, 255);
+           background-color: yellowgreen;
+       }
+       .SI48{
+           color: slateblue;
+           background-color: snow;
+       }
+       .SI49{
+           color: deeppink;
+           background-color: forestgreen;
+       }
+       .SI50{
+           color: fuchsia;
+           background-color: gold;
+       }
+       .SI51{
+           color:rgb(255, 255, 255);
+           background-color: red;
+       }
+    </style>
 </head>
 <body>
     <table border="1px" width="100%">
-        <tr>
+        <tr class="SI">
             <th>SI</th>
             <th>Tag name</th>
             <th>Description</th>
             <th>Example</th>
         </tr>
-        <tr>
+        <tr class="SI1">
             <td>01</td>
             <td>h1</td>
             <td>This is heading tag</td>
             <td> <h1>This is heading one tag</h></td>
         </tr>
-        <tr>
+        <tr class="SI2">
             <td>02</td>
             <td>h2</td>
             <td>This is heading tag</td>
             <td><h2>This is heading tag two</h2></td>
         </tr>
-        <tr>
+        <tr class="SI3">
             <td>03</td>
             <td>h3</td>
             <td>This is heading tag</td>
             <td><h3>This is heading tag three</h3></td>
         </tr>
-        <tr>
+        <tr class="SI4">
             <td>04</td>
             <td>h4</td>
             <td>This is heading tag</td>
             <td><h4>this is heading tag four</h4></td>
         </tr>
-        <tr>
+        <tr class="SI5">
             <td>05</td>
             <td>h5</td>
             <td>This is heading tag</td>
             <td><h5>This is heading tag five</h5></td>
         </tr>
-        <tr>
+        <tr class="SI6">
             <td>06</td>
             <td>h6</td>
             <td>This is heading tag</td>
             <td><h6>This is heading tag six</h6></td>
         </tr> 
-        <tr>
+        <tr class="SI7">
             <td>07</td>
             <td>image</td>
             <td>This iS use for showing image</td>
             <td> <img src="images/logo.jpg" width="200px" alt="logo"></td>
         </tr> 
-        <tr>
+        <tr class="SI8">
             <td>08</td>
             <td>italic</td>
             <td>Italic font</td>
             <td><i>This is use for italic font</i></td>
         </tr>  
-        <tr>
+        <tr class="SI9">
             <td>09</td>
             <td>b</td>
             <td>Bold font</td>
             <td><b>This is use for bold font</b></td>
         </tr>
-        <tr>
+        <tr class="SI10">
             <td>10</td>
             <td>srtong</td>
             <td>This is strong tag</td>
             <td><strong>Some importent text</strong></td>
-        <tr>
+        <tr class="SI11">
             <td>11</td>
             <td>i</td>
             <td>this is underline tag</td>
             <td><u>This is underline tag</u></td>
         </tr>
-        <tr>
+        <tr class="SI12">
             <td>12</td>
             <td>header</td>
             <td>tish is header tag</td>
             <td><header>this is header tag</header></td>
         </tr>
-        <tr>
+        <tr class="SI13">
             <td>13</td>
             <td>delete</td>
             <td>this is delete tag</td>
             <td><del>this is delete tag</del></td>
         </tr>
+        <tr class="SI14">
         <td>14</td>
         <td>sub</td>
         <td>this is sub tag</td>
         <td><p>tish is sub<sub>tag</sub></p></td>
         </tr> 
-        <tr>
+        <tr class="SI15">
             <td>15</td>
             <td>link</td>
             <td>tish is link tag</td>
-            <td><p><a href="https://www.w3school.com/"> Visit w3school.com!</a></p></td>
-        </tr> 
-        <tr>
+            <td><p><a href="https://www.Chorome.com/"> Visit chorome.com!</a></p></td>
+        </tr>
+        <tr class="SI16">
             <td>16</td>
             <td>li</td>
             <td>Tish is li tag</td>
             <td><ul><li>coffe</li><li>tea</li><li>milk</li></UL></td>
         </tr> 
-        <tr>
-            <td>16</td>
+        <tr class="SI17">
+            <td>17</td>
             <td>ol</td>
             <td>This is ol tag</td>
             <td><ol><li>coffe</li><li>tea</li><li>milk</li></ol></td>
         </tr>
-        <tr>
-            <td>17</td>
+        <tr class="SI18">
+            <td>18</td>
             <td>mark</td>
             <td>Tish is mark tag</td>
             <td><p>This is mark<mark>tag</mark></p></td>
             </tr>
-            <tr>
-                <td>18</td>
+            <tr class="SI19">
+                <td>19</td>
                 <td>address</td>
                 <td>This is address tag</td>
                 <td><address>Written by <a href="malto:webmaster@example.com"> Jon Doe</a>.<br>Visit us at:<br><Example.com<br>Box 564, Disneyland<br>USA</address></td>
             </tr>
-            <tr>
-                <td>19</td>
+            <tr class="SI20">
+                <td>20</td>
                 <td>bb</td>
                 <td>this is bb tag</td>
                 <td><bb type="makeapp">Yahoo Messanger Chat Box</bb></td>
             </tr>
-            <tr>
-                <td>20</td>
+            <tr class="SI21">
+                <td>21</td>
                 <td>hr</td>
                 <td>This is hr tag</td>
                 <td><hr><p>Com Domain Name, Top Results From Trusted Resources. Search Cheap .Com Domain Name, Get Expert Advice and Curated Content on Searchley. Quick Answers. Find All Info You Want. 100+ Unique Results. Find in Seconds. Explore the Best Info Now.</p></td>
             </tr>
-            <tr>
-                <td>21</td>
+            <tr class="SI22">
+                <td>22</td>
                 <td>form</td>
                 <td>This is form tag</td>
                 <td><form action="/action_page.php"><label for ="fname">First name:</label><br><input type="text" id="ffname"name="fname" value="John"></form><br><label for="lname">Last name:</label><br><input type="text" id="lname"name="lname" value="Doe"><br><br><input type="submit"value="submit"></form><p>If you click the"Submit" button, the form-data will be sent to a page called"/action_page.php".</p></td>
             </tr>
-            <tr>
-                <td>22</td>
+            <tr class="SI23">
+                <td>23</td>
                 <td>audio</td>
                 <td>This is audio tag</td>
-                <td><audio controls><source src="horse.ogg"type="audio/ogg"><source src="horse.mp3"type="audio/mpeg"></audio></td>
+                <td><audio controls><source src="https://gaana.com/lyrics/sunnrahahai"type="audio/lyrics"><source src="https://gaana.com/lyrics/sunnrahahai"type="audio/lyrics"></audio></td>
             </tr>
-            <tr>
-                <td>23</td>
+            <tr class="SI24">
+                <td>24</td>
                 <td>map & area</td>
                 <td>This is is map & area tag</td>
                 <td><img src="images/logo.jpg"alt="logo" usemap="#workmap"width="200" height="150"><map name="imagesmap"><area shape="rect"coords="34,44,270,350"alt="logo"href="logo.htm"></map></td>
             </tr>
-            <tr>
-                <td>24</td>
+            <tr class="SI25">
+                <td>25</td>
                 <td>br</td>
                 <td>This is br tag</td>
                 <td><p>To force<br> line break <br> in a text,<br> use the br<br> element.</p></td>
             </tr>
-            <tr>
-                <td>25</td>
+            <tr class="SI26">
+                <td>26</td>
                 <td>button</td>
                 <td>This is button tag</td>
                 <td><form><input type="button"value="Click me" oneclick="msg()"></form><script> function msg()  {alert("Hello world");} </script></td>
             </tr>
-            <tr>
-                <td>26</td>
+            <tr class="SI27">
+                <td>27</td>
                 <td>canvas</td>
                 <td>This is canvas tag</td>
                 <td><canvas id="mycanvas" witdh="150" height="80" style="border:1px solid#000000;"></canvas></td>
             </tr>
-            <tr>
-                <td>27</td>
+            <tr class="SI28">
+                <td class="SI28">28</td>
                 <td>caption</td>
                 <td>This is caption tag</td>
                 <td><table border="1px">
                     <caption> Monthly income<tr><th>Month</th><th>Savings</th></tr><tr><td>January</td><td>100$</td></tr><tr><td>Fabruary</td><td>50$</td></tr></caption></table></td>
             </tr>
-            <tr>
-                <td>28</td>
+            <tr class="SI29">
+                <td>29</td>
                 <td>cite</td>
                 <td>This is cite tag</td>
                 <td><img src="images/logo.jpg"width="100" height="60"alt="logo"><p><cite>The Scream</cite>by Edward Munch. Painted in 1893.</p></td>
             </tr>
-            <tr>
-                <td>29</td>
+            <tr class="SI30">
+                <td>30</td>
                 <td>code</td>
                 <td>This is code data</td>
                 <td><p>The HTML <code>button</code> tag defines a clickable button.</p></td>
             </tr>
-            <tr>
-                <td>30</td>
+            <tr class="SI31">
+                <td>31</td>
                 <td>command</td>
                 <td>This is command tag</td>
                 <td><command type="checklist" label="Check list">Check list</command></td>
             </tr>
-            <tr>
-                <td>31</td>
+            <tr class="SI32">
+                <td>32</td>
                 <td>datalist</td>
                 <td>This is datalist tag</td>
                 <td><form action="/action_page.php"method="get"></form><label for="browser">Choose your browser from the list:</label><input list="browser"name="browser" id="browser"><datalist id="browser"><option value="Edge"><option value="Firefox"><option value="Chorome"><option value="Opera"></datalist><input type="submit"></form><p><strong>Note:</strong>The datalist tag is not ssupported in Safari 12.0 (or earlier).</p></td>
             </tr>
-            <tr>
-                <td>32</td>
+            <tr class="SI33" >
+                <td>33</td>
                 <td>dl,dd,dt</td>
                 <td>These three elements are used to create a description list</td>
                 <td><dl><dt>Coffee</dt><dd>Black hot dring</dd><dt>Milk</dt><dd>White cold drink</dd></dl></td>
             </tr>
-            <tr>
-                <td>33</td>
+            <tr class="SI34">
+                <td>34</td>
                 <td>del</td>
                 <td>This is del tag</td>
                 <td>My favorite color is<del>blue</del><ins>red</ins>!</td>
             </tr>
-            <tr>
-                <td>34</td>
+            <tr class="SI35">
+                <td>35</td>
                 <td>details</td>
                 <td>This is details tag</td>
                 <td><details><summary>Football</summary><p>Football is the world famous game.</p></details></td>
             </tr>
-            <tr>
-                <td>35</td>
+            <tr class="SI36">
+                <td>36</td>
                 <td>dfn</td>
                 <td>The dfn element</td>
                 <td><dfn>HTML</dfn> is the standard markup language for creating web pages.</td>
             </tr>
-            <tr>
-                <td>36</td>
+            <tr class="SI37">
+                <td>37</td>
                 <td>div</td>
                 <td>THe div element</td>
                 <td><style>.myDiv {border: 5px outset red;background-color: lightblue;text-align: center;} </style><div class="myDiv"><h2>This is heading in a div element</h2><p>This is some text in a div element.</p></div><p>This is some text outside the div element.</p></td>
             </tr>
-            <tr>
-                <td>37</td>
+            <tr class="SI38" >
+                <td>38</td>
                 <td>em</td>
                 <td>The em element</td>
                 <td><p>My<em> favorite</em> game the football</p></td>
             </tr>
-            <tr>
-                <td>38</td>
+            <tr class="SI39">
+                <td>39</td>
                 <td>fieldset</td>
                 <td>The fieldset element</td>
                 <td><form action="/action_page.php"><fieldset><legend>Personalias:</legend><label for="fname">First name:</label><input type="text" id="fname"name="fname"><br><br><label for="lname">Last name:</label><input type="text"id="lname"name="lname"><br><br><label for="email">Email:</label><input type="text"id="email"name="email"><br><br><label for="brithday">Brithday:</label><input type="date"id="brithday"name="brithday"><br><br><input type="submit"value="submit"></fieldset></form></td>
             </tr>
-            <tr>
-                <td>39</td>
+            <tr class="SI40">
+                <td>40</td>
                 <td>figcaption</td>
                 <td>Represent a caption text corresponding with a figure element</td>
                 <td><figure><img src="images/logo.jpg"alt="logo"style="witdh:100%" height="200"><figcaption>Fig.1 - logo,,logo,logo.</figcaption></figure></td>
             </tr>
-            <tr>
-                <td>40</td>
+            <tr class="SI41">
+                <td>41</td>
                 <td>font</td>
                 <td>Defines a font size, font face and font colore for it text</td>
                 <td><p style="color:crimson">This is a paragraph.<p style="color:darkblue">This is another paragraph.</p></td>
             </tr>
-            <tr>
-                <td>41</td>
+            <tr class="SI42">
+                <td>42</td>
                 <td>footer</td>
                 <td>The footer element</td>
                 <td><footer><p>Another: Hage Refssnes<br><a href="malto:hege@example.com">hege@example.com</a></p></footer></td>
             </tr>
-            <tr>
-                <td>42</td>
+            <tr class="SI43">
+                <td>43</td>
                 <td>iframe</td>
                 <td>This is iframe tag</td>
-                <td><iframe src="https://www.w3school.com">
-                title="W3schools Free Online Web Tutrial"></iframe></td>
+                <td><iframe src="https://www.prothomalo.com"title="prothomalo online news site"></iframe>
+                </iframe></td>
             </tr>
-            <tr>
-                <td>43</td>
+            <tr class="SI44">
+                <td>44</td>
                 <td>header</td>
                 <td>This is header tag</td>
                 <td><p>Posted by Jone Doe</p><p>Some additional information here</p></td>
             </tr>
-            <tr>
-                <td>44</td>
+            <tr class="SI45">
+                <td>45</td>
                 <td>hgroup</td>
                 <td>This is hgroup tag</td>
                 <td><h1>I am a student<h1><h2>I am a student</h2><h3>I am a student</h3></td>
             </tr>
-            <tr>
-                <td>45</td>
+            <tr class="SI46">
+                <td>46</td>
                 <td>ins</td>
                 <td>This is ins tag</td>
                 <td><p>My favorite game <ins>Football</ins>!</p></td>
             </tr>
-            <tr>
-                <td>46</td>
+            <tr class="SI47">
+                <td>47</td>
                 <td>kbd</td>
                 <td>This is kbd tag</td>
                 <td><p>Press<kbd> Crtl</kbd>   +<kbd> C </kbd> to copy text(Windows).</p></td>
             </tr>
-            <tr>
-                <td>47</td>
+            <tr class="SI48">
+                <td>48</td>
                 <td>menu</td>
                 <td>This is menu tag</td>
                 <td><menu><li>Home</li><li>Registretions</li><li>Contuct-us</li><li>About</li></menu></td>
             </tr>
-            <tr>
-                <td>48</td>
+            <tr class="SI49">
+                <td>49</td>
                 <td>meter</td>
                 <td>This is meter tag</td>
                 <td><meter id="disc_C"value="2" min="0" max="10"></meter></td>
             </tr>
-            <tr>
-                <td>49</td>
+            <tr class="SI50">
+                <td>50</td>
                 <td>nav</td>
                 <td>This is nav tag</td>
                 <td><nav><a href="/html/">HTML</a> <a href="/css/">css</a></nav></td>
             </tr>
-            <tr>
-                <td>50</td>
+            <tr class="SI51">
+                <td>51</td>
                 <td>object</td>
                 <td>This is object tag</td>
                 <td><object data="images/logo.jpg">witdh="300"height="200"</object></td>
@@ -322,6 +545,7 @@
     </table>
 </body> 
     
+
 
 
 
