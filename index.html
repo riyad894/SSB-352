@@ -1,88 +1,230 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hidayah</title>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">  
+
+    <!-- bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- custom css -->
     <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <!-- header part start here -->
-    <header>
-        <div class="header-content">
-            <div class="logo">
-                <img src="images/hidiyah.PNG" alt="">
+    <title>E-school</title>
+
+  </head>
+  <body>
+
+    <section class="hero-section">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-md navbar-light ">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#"><img class="img-fluid" src="images/logo.png" alt=""></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Books</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Courses</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Others</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
             </div>
-            <nav>
-                <ul>
-                    <li>home</li>
-                    <Li>portfolio</Li>
-                    <li>blog</li>
-                    <li>contact</li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <!-- header part end here -->
-
-    <!-- content part start here -->
-    <section class="content">
-        <img src="images/logo one.PNG" alt="">
-    </section>
-<!-- content part end here -->
-
-
-<!-- mid-content part start here -->
-    <section class="mid-content">
-        <div class="mid-content_one">
-            <img src="images/logo two.PNG" alt="">
-            <h2>Customijable</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, maiores?</p>
-        </div>
-        <div class="mid-content_two">
-            <img src="images/logo three.PNG" alt="">
-            <h2>Vlid HTML5</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, explicabo!</p>
-        </div>
-        <div class="mid-content_three">
-            <img src="images/logo four.PNG" alt="">
-            <h2>Responsive</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, aliquam.</p>
+            <div class="row pt-5">
+             <div class="col-md-6 pt-5 hero-content" >
+            <h5>Are you ready to Learn?</h5> 
+            <h1>Learn With fun on <span>any schedule</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.</p>
+            <a href="" class="btn btn-custom">Get started</a>
+             </div>
+             <div class="col-md-6" >
+                <img src="images/hero.png" class="img-fluid" alt="">
+            </div>
+            </div>
         </div>
     </section>
-    <!-- mid-content part end here -->
-    
-    <!-- luctuc part start here -->
-    <section class="luctus">
-        <div class="luctus-one">
-            <h2>Maecenas luctus</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, quasi?</p>
-        </div>
-        <div class="luctus-two">
-            <h2>Maecenas luctus</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, molestias!</p>
+
+
+    <section class="feature mt-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="feature-content text-center">
+                        <img src="images/service_one.png" class="img-fluid">
+                        <h2>1500+ Topic</h2>
+                        <p>Learn Anythings</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-content text-center">
+                        <img src="images/service_two.png" class="img-fluid">
+                        <h2>1800+ Students</h2>
+                        <p>Learn Anythings</p>
+                    </div>    
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-content text-center">
+                        <img src="images/service_three.png" class="img-fluid">
+                        <h2>9K+ Test Token</h2>
+                        <p>Learn Anythings</p>
+                    </div>     
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-content text-center">
+                        <img src="images/service_four.png" class="img-fluid">
+                        <h2>2000+ Student</h2>
+                        <p>Learn Anythings</p>
+                    </div>    
+                </div>
+            </div>
+            
         </div>
     </section>
-    <!-- luctuc part end here -->
 
-    <!-- content-end part start here -->
-    <section class="content-end">
-        <div class="content-end_one">
-            <img src="images/logo five.PNG" alt="">
+    <section class="course-section pt-5 pb-5">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-12 pt-3 pb-5 heading">
+            <h1>Online courses</h1>
+          </div>
         </div>
-        <div class="content-end_two">
-            <img src="images/logo six.PNG" alt="">
+        <div class="row">
+          
+          <div class="col-md-4">
+            <div class="course">
+              <img src="images/course1.png" class="img-fluid" alt="">
+              <h2>Modern Psychology</h2>
+              <h5>Designation</h5>
+              <a href class="btn btn-course">Buy courses</a>
+              <ul>
+                <li><i class="fas fa-calendar-minus"></i> Start 20  April, 2021</li>
+                <li><i class="fas fa-user"></i> 60 seats</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="course">
+              <img src="images/course2.png" class="img-fluid" alt="">
+              <h2>Modern Psychology</h2>
+              <h5>Designation</h5>
+              <a href class="btn btn-course">Buy courses</a>
+              <ul>
+                <li><i class="fas fa-calendar-minus"></i> Start 20  April, 2021</li>
+                <li><i class="fas fa-user"></i> 60 seats</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="course">
+              <img src="images/course3.png" class="img-fluid" alt="">
+              <h2>Modern Psychology</h2>
+              <h5>Designation</h5>
+              <a href class="btn btn-course">Buy courses</a>
+              <ul>
+                <li><i class="fas fa-calendar-minus"></i> Start 20  April, 2021</li>
+                <li><i class="fas fa-user"></i> 60 seats</li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
+    </section> 
+
+    <section class="testimonial pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="row">
+            <div class="col-md-12 pt-3 pb-5 heading">
+              <h1>Testimonial</h1>
+            </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="client">
+                  <img src="images/photo.png" class="img-fluid" alt="">
+                </div>
+              </div>
+              <div class="col-md-8">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium in sunt numquam temporibus earum maxime obcaecati consequatur, voluptates ut dolorum?</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+
+          </div>
+        </div>
+      </div>
     </section>
-    <!-- content-end part end here -->
 
-    <!-- footer part start here -->
-    <footer>
-        <P>copyright &copy;hidiyah theme</P>
-        <h5>free bootstarp themes <p>by</p> boostarpthemes.io</h5>
+    <footer class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <p>Millions of people of all ages and from around
+              the world are improving their lives with us</p>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li>Course</li>
+              <li>Graphic Design</li>
+              <li>Web Design</li>
+              <li>Business</li>
+              <li>Marketing</li>
+              <li>Engineering</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li>Terms</li>
+              <li>Graphic Design</li>
+              <li>Web Design</li>
+              <li>Business</li>
+              <li>Marketing</li>
+              <li>Engineering</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li>Useful link</li>
+              <li>Graphic Design</li>
+              <li>Web Design</li>
+              <li>Business</li>
+              <li>Marketing</li>
+              <li>Engineering</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </footer>
+    
 
-    <!-- footer part end here -->
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
