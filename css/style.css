@@ -1,297 +1,352 @@
 *{
-    margin:0;
+    margin: 0;
     padding: 0;
 }
-.navbar-light .navbar-nav .nav-link {
-    text-transform: uppercase;
-    color: #184173;
-    font-size: 16px;
-    font-weight: 600;
-}
-.navbar-light .navbar-nav .nav-link:hover{
-    color: #0a2f5d;
-}
-.banner{
+header{
     background-image: url(../images/banner.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
     position: relative;
+    padding: 0;
 }
-.banner h1{
-    
-color: white;
-    
-font-size: 65px;
-    
-text-transform: uppercase;
+.navbar-light .navbar-nav .nav-item{
+    padding: 0 15px;
 }
-.hg{
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background: #008ed6;
+    transition: .4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link::after{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    height: 2px;
+    width: 0%;
+    background: #008ed6;
+    transition: .4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover::before{
+    width: 47%;
+}
+.navbar-light .navbar-nav .nav-link:hover::after{
+    width: 47%;
+}
+.banner-content{
     min-height: 90vh;
     align-items: center;
+    position: relative;
 }
-.icon{
-    
-position: absolute;
-    
-left: 50%;
-    
-top: 75%;
+.banner-content h5{
+
+color: #008ed6;
+
+text-transform: uppercase;
+
+font-size: 16px;
+
+letter-spacing: 2px;
+
+margin-bottom: 15px;
+}
+.banner-content h1{
+
+color: #fff;
+
+margin-bottom: 25px;
+}
+.banner-content p{
+
+color: #fff;
+
+margin-bottom: 50px;
+}
+.btn-download{
+
+color: #fff;
+
+background-color: #008ed6;
+
+padding: 15px 25px;
+
+font-size: 14px;
+
+text-transform: uppercase;
+
+font-weight: 600;
+
+letter-spacing: 1px;
+
+border-radius: 5px;
+}
+.btn-features{
     
 color: #fff;
     
-font-size: 30px;
+text-transform: uppercase;
     
-transform: translateX(-50%);
-animation: updown 1s linear infinite;
-animation-direction: alternate;
-}
-@keyframes updown{
-    0%{
-        top: 75%;
-    }
-    100%{
-        top: 80%;
-    }
-}
-.who_we_are{
-
-}
-.who_we_are span{
-
-height: 5px;
-
-width: 0px;
-
-background: #f15727;
-
-display: inline-block;
-transition: .5s all ease-in-out;
-}
-.who_we_are h1{
-
-color: #204f87;
-font-size: 40px;
-}
-.who_we_are p{
+font-size: 14px;
     
+font-weight: 600;
+    
+padding: 15px 25px;
+    
+border: 1px solid#f1c7c7;
+    
+border-radius: 5px;
+    
+margin-left: 30px;
 }
-.who_we_are:hover span{
-width: 50px;
+.btn-features:hover{
+    color: #fff;
+    background-color: #008ed6;
+    border-color: transparent;
 }
-.what_we_do{background-color: #f7f8f8;background-image: url(../images/whatwedo_bg.png);background-position: right bottom;background-repeat: no-repeat;background-size: 900px;}
-.what_we_do:hover .heading span{
-    width: 50px;
+.btn-download:hover{
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid#f1c7c7;
+}
+.phone{
+
+position: absolute;
+
+bottom: 0;
+
+left: 55%;
+
+width: 50%;
+}
+.phone img{
+    
 }
 .heading{
 
 }
+.heading h1{color: #1a1a1a;font-size: 35px;}
+.heading h5{
+    color: #008ed6;
+    font-size: 16px;
+    text-transform: uppercase;
+}
 .heading span{
-    height: 5px;
-    width: 0px;
-    background: #f15727;
-    display: block;
-    margin: auto;
-    transition: .5s all ease-in-out
-     
+    display: inline-block;
+    height: 2px;
+    width: 70px;
+    position: relative;
+    
 }
-.heading h1{
-    color: #204f87;
-    font-size: 40px;
-    text-align: center;
-}
-.image{
-    position:relative;
-}
-.image::before{
+.heading span::before{
     content: '';
-position: absolute;
-width: 100%;
-height: 0%;
-left:0%;
-bottom:0%;
-
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7db9e8+0,1e5799+58,28377e+97&0+0,1+58 */
-background: -moz-linear-gradient(top,  rgba(125,185,232,0) 0%, rgba(30,87,153,1) 58%, rgba(40,55,126,1) 97%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(125,185,232,0) 0%,rgba(30,87,153,1) 58%,rgba(40,55,126,1) 97%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(125,185,232,0) 0%,rgba(30,87,153,1) 58%,rgba(40,55,126,1) 97%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#28377e',GradientType=0 ); /* IE6-9 */
-opacity: .5;
-transition: .5s all ease-in-out
-}
-
-.image:hover::before{
+    position: absolute;
     height: 100%;
+    width: 0%;
+    background-color: #008ed6;
+    left:0;
+    top: 0;
+    transition: .4s all ease-in-out;
 }
+.heading span::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background-color: #008ed6;
+    right:0;
+    top: 0;
+    transition: .4s all ease-in-out;
+}
+.feature_section{
 
-.text{
-    
-position: absolute;
-    
-top: 55%;
-    
-left: 50%;
-    
+}
+.feature_section:hover .heading span::after{
+width: 45%;
+}
+.feature_section:hover .heading span::before{
+    width: 45%;
+}
+.feature_item{
 
-    
-transform: translate(-50%,-50%);
-opacity: 0;
-transition: .5s all ease-in-out
 }
-.text h1{
-    color: #fff;
-    font-size: 25px;
-    text-transform: uppercase;
+.feature_item h2{
+
+font-size: 26px;
+
+margin-top: 18px;
 }
-.image:hover .text{
-opacity: 1;
-top: 50%;
+.feature_item p{
+
+color: #b8b8b8;
 }
-.image_icon{
+.icon-box{
     
-position: absolute;
+line-height: 60px;
     
-left: 45%;
+height: 60px;
     
-top: 80%;
+width: 60px;
     
-color: #fff;
+border: 1px solid#red;
     
+border: 1px solid #a79a9a;
+    
+border-radius: 50%;
+    
+font-size: 22px;
+    
+color: #6b6b6b;
+    
+margin: auto;
+}
+.mid_section{
+
+}
+.mid_section h5{
+
+color: #008ed6;
+
+text-transform: uppercase;
+
+font-size: 10px;
+}
+.mid_section h1{
+
 font-size: 30px;
+}
+.mid_section p{color: #cfcfcf;margin-top: 13px;}
+.mid_section li{
+color: #1b1b1b;
+list-style: none;
+
+/* margin-left: 2px; */
+}
+.mid_section li i{
     
-transform: translate(-50%);
-opacity: 0;
-transition: .5s all ease-in-out
-}
-.image:hover .image_icon{
-opacity: 1;
-left: 50%;
-}
-.attroney_section{
-background-image: url(../images/attorney_bg.png);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-padding: 100px 0;
-}
-.attroney_section h1{
-    color: #fff;
-    font-size: 30px;
-    text-transform: uppercase;
-
-}
-.attroney_section span{
-width: 0px;
-height: 5px;
-display: block;
-background-color:#f15727;
-transition: .5s all ease-in-out
-}
-.attroney_section p{
-color: #929dcf;
-}
-.attroney_section a{
-    color: #f15727;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-.attroney_section:hover span{
-width: 50px;
-}
-.designation{
+color: #008ed6;
     
-position: absolute;
+padding-top: 15px;
     
-left: 20%;
+/* left: 3px; */
     
-top: 80%;
- opacity: 0;   
-color: #fff;
-transition: .5s all ease-in-out
-}
-.image:hover .designation{
-    top: 75%;
-    opacity: 1;
-    }
-    .language:hover .heading span{
-      width: 50px;
-    }
-    .language{
-
-    }
-    .language h2{
-     font-size: 25px;
-     color: #28377e;
-     text-transform: uppercase;
-    }
-    .language p{
-    color: #b1b0b1;
-    }
-    .language a{
-     color: #f15727;
-     text-decoration: none;
-     text-transform: uppercase;
-    }
-    .contact{
-        background-color: #28377e;
-    }
-    form{
-
-    }
-    form input{
-
-/* background-color: #755b5b00; */
-
-background: transparent !important;
-
-border: none!important;
-
-border-bottom: 1px solid #b9b7b7 !important;
-
-border-radius: 0!important;
-caret-color: #fff!important;
-}
-form input::placeholder{
-    color: #fff !important;
-}
-form textarea::placeholder{
-    color: #fff !important;
-}
-form input:focus{
-    box-shadow: none !important;
-}
-form textarea:focus{
-    box-shadow: none !important;
-}
-form textarea{
-    background: transparent !important;
-
-border: none!important;
-
-border-bottom: 1px solid #b9b7b7 !important;
-
-border-radius: 0!important;
-caret-color: #fff!important;
-}
-form input[type="submit"]{
+/* margin-left: 2px; */
     
-border: none !important;
-    
-color: #fff;
-    
-padding: 10px 40px;
-    
-background: #f2622c !important;
-    
-border: 2px solid #f2622c !important;
-transition: .5s all ease-in-out
+margin-right: 8px;
 }
-form input[type="submit"]:hover{
-    background: transparent !important;
+.Mobile{
+
 }
-.contact .heading h1{
-    color: #fff;
+.Mobile img{
+
+/* height: 123%; */
 }
-.contact:hover .heading span{
-    width: 50px;
+
+
+.Mobile span{
+    display: inline-block;
+    height: 2px;
+    width: 70px;
+    position: relative;
+    
+}
+.Mobile span::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background-color: #008ed6;
+    left:0;
+    top: 0;
+    transition: .4s all ease-in-out;
+}
+.Mobile span::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background-color: #008ed6;
+    right:0;
+    top: 0;
+    transition: .4s all ease-in-out;
+}
+.mid_section{
+
+}
+.mid_section:hover .Mobile span::after{
+width: 45%;
+}
+.mid_section:hover .Mobile span::before{
+    width: 45%;
+}
+.iphone_section{
+    background-color: #f2f2f2;
+}
+.iphone{
+
+}
+.iphone h5{
+
+color: #008ed6;
+
+text-transform: uppercase;
+
+font-size: 10px;
+}
+.iphone h1{
+
+font-size: 30px;
+}
+.iphone p{color: #cfcfcf;margin-top: 13px;}
+.iphone li{
+color: #1b1b1b;
+list-style: none;
+}
+.iphone span{
+    display: inline-block;
+    height: 2px;
+    width: 70px;
+    position: relative;
+    
+}
+.iphone span::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background-color: #008ed6;
+    left:0;
+    top: 0;
+    transition: .4s all ease-in-out;
+}
+.iphone span::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background-color: #008ed6;
+    right:0;
+    top: 0;
+    transition: .4s all ease-in-out;
+}
+.iphone_section{
+
+}
+.iphone_section:hover .iphone span::after{
+width: 45%;
+}
+.iphone_section:hover .iphone span::before{
+    width: 45%;
 }
