@@ -1,352 +1,250 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-header{
-    background-image: url(../images/banner.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+/* font-family: 'Poppins', sans-serif; */
+body{
+    font-family: 'Poppins', sans-serif;
 }
 .navbar-light .navbar-nav .nav-link {
-    color: #fff;
+    color: rgb(0 0 0);
     font-size: 16px;
-    position: relative;
-    padding: 0;
-}
-.navbar-light .navbar-nav .nav-item{
-    padding: 0 15px;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
 }
 .navbar-light .navbar-nav .nav-link:hover{
-    color: #fff;
+    color: #6563b3;
 }
-.navbar-light .navbar-nav .nav-link::before{
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    height: 2px;
-    width: 0%;
-    background: #008ed6;
-    transition: .4s all ease-in-out;
+.hero-section{
+    background-color: #dbf5db;
+    min-height: 100vh;
 }
-.navbar-light .navbar-nav .nav-link::after{
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    right: 0;
-    height: 2px;
-    width: 0%;
-    background: #008ed6;
-    transition: .4s all ease-in-out;
+.navbar-brand img{
+    
+        width: 25%;
 }
-.navbar-light .navbar-nav .nav-link:hover::before{
-    width: 47%;
-}
-.navbar-light .navbar-nav .nav-link:hover::after{
-    width: 47%;
-}
-.banner-content{
-    min-height: 90vh;
-    align-items: center;
-    position: relative;
-}
-.banner-content h5{
+.hero-content{
 
-color: #008ed6;
+}
+.hero-content h5{
 
-text-transform: uppercase;
+
+
+color: rgba(253, 81, 26, 1);
 
 font-size: 16px;
 
-letter-spacing: 2px;
-
-margin-bottom: 15px;
+line-height: 24px;
 }
-.banner-content h1{
+.hero-content h1{
+    
+color: black;
+    
+font-size: 48px;
+    
+line-height: 70px;
 
-color: #fff;
 
-margin-bottom: 25px;
 }
-.banner-content p{
-
-color: #fff;
-
-margin-bottom: 50px;
+.hero-content h1 span{
+    color: #00c583;
 }
-.btn-download{
+.hero-content p{
 
-color: #fff;
+color: rgba(108, 107, 107, 1);
 
-background-color: #008ed6;
+font-size: 16px;
 
-padding: 15px 25px;
-
-font-size: 14px;
-
-text-transform: uppercase;
+line-height: 36px;
 
 font-weight: 600;
+}
+.btn-custom{
 
-letter-spacing: 1px;
+color: white;
 
-border-radius: 5px;
-}
-.btn-features{
-    
-color: #fff;
-    
-text-transform: uppercase;
-    
-font-size: 14px;
-    
-font-weight: 600;
-    
-padding: 15px 25px;
-    
-border: 1px solid#f1c7c7;
-    
-border-radius: 5px;
-    
-margin-left: 30px;
-}
-.btn-features:hover{
-    color: #fff;
-    background-color: #008ed6;
-    border-color: transparent;
-}
-.btn-download:hover{
-    color: #fff;
-    background-color: transparent;
-    border: 1px solid#f1c7c7;
-}
-.phone{
+/* color: #00c583; */
 
-position: absolute;
+font-size: 16px;
 
-bottom: 0;
+line-height: 19px;
 
-left: 55%;
+padding: 10px 20px;
 
-width: 50%;
+border-radius: 50px;
+
+background-color: #00c583;
 }
-.phone img{
+.feature-content{
+
+background-color: F8FFFB;
+
+background-color: #F8FFFB;
+
+padding: 50px 0;
+}
+.feature-content img{
+
+width: 20%;
+}
+.feature-content h2{
+
+color: rgba(65, 57, 96, 1);
+
+font-size: 24px;
+
+line-height: 36px;
+
+margin-top: 15px;
+}
+.feature-content p{
     
-}
-.heading{
-
-}
-.heading h1{color: #1a1a1a;font-size: 35px;}
-.heading h5{
-    color: #008ed6;
-    font-size: 16px;
-    text-transform: uppercase;
-}
-.heading span{
-    display: inline-block;
-    height: 2px;
-    width: 70px;
-    position: relative;
+color: rgba(88, 88, 89, 1);
     
+line-height: 24px;
 }
-.heading span::before{
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 0%;
-    background-color: #008ed6;
-    left:0;
-    top: 0;
-    transition: .4s all ease-in-out;
+.feature-content:hover{
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 20px 40px
+    rgba(0,0,0,0,1);
+    /* border-radius: 10px; */
+    box-shadow: opx 10px 40px rgba;
+    box-shadow: opx 10px 40px;
 }
-.heading span::after{
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 0%;
-    background-color: #008ed6;
-    right:0;
-    top: 0;
-    transition: .4s all ease-in-out;
+.course{
+
+background-color: white;
+
+padding: 20px;
+
+/* box-shadow: 0px 10px 40px; */
+
+/* border-radius: 20px; */
+
+box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+
+border-radius: 18px;
 }
-.feature_section{
+.course img{
 
 }
-.feature_section:hover .heading span::after{
-width: 45%;
+.course h2{
+
+color: rgba(65, 57, 96, 1);
+
+font-size: 24px;
+
+line-height: 36px;
+
+margin-top: 30px;
 }
-.feature_section:hover .heading span::before{
-    width: 45%;
-}
-.feature_item{
+.course p{
 
 }
-.feature_item h2{
+.btn-course{
 
-font-size: 26px;
+color: white;
 
-margin-top: 18px;
+font-size: 16px;
+
+background-color: #00c583;
+
+line-height: 19px;
+
+padding: 6px 12px;
+
+border-radius: 50px;
+
+margin: 20px 0;
 }
-.feature_item p{
-
-color: #b8b8b8;
+.btn-course:hover{
+    
+    background-color: #1c7d5d;
+    color: #dbf5db;
 }
-.icon-box{
+.course ul{
+
+list-style: none;
+
+margin: 0;
+
+padding: 0;
+
+display: flex;
+
+justify-content: space-between;
+}
+.course ul li{
+
+color: rgba(88, 88, 89, 1);
+
+font-size: 16px;
+
+line-height: 24px;
+}
+.course ul li i{
     
-line-height: 60px;
+margin-right: 10px;
+}
+.heading h1{
     
-height: 60px;
+color: rgba(65, 57, 96, 1);
     
-width: 60px;
+font-size: 36px;
     
-border: 1px solid#red;
+line-height: 54px;
     
-border: 1px solid #a79a9a;
-    
-border-radius: 50%;
-    
-font-size: 22px;
-    
-color: #6b6b6b;
-    
+text-align: center;
+}
+.client{
+
+width: 40%;
+
 margin: auto;
+
+border: 1px solid #cebebe;
+
+border-radius: 50px;
+
+overflow: hidden;
+
+margin-left: a;
+
+margin-right: 10px;
 }
-.mid_section{
-
+.client img{
+    
 }
-.mid_section h5{
-
-color: #008ed6;
-
-text-transform: uppercase;
-
-font-size: 10px;
+.testimonial p{
+    
+color: rgba(0, 0, 0, 1);
+    
+font-size: 16px;
+    
+line-height: 30px;
 }
-.mid_section h1{
+footer{
 
-font-size: 30px;
+background: rgba(40, 37, 49, 1);
+
+color: white;
 }
-.mid_section p{color: #cfcfcf;margin-top: 13px;}
-.mid_section li{
-color: #1b1b1b;
+footer p{
+
+font-size: 16px;
+
+line-height: 30px;
+}
+footer ul{
+
 list-style: none;
 
-/* margin-left: 2px; */
-}
-.mid_section li i{
-    
-color: #008ed6;
-    
-padding-top: 15px;
-    
-/* left: 3px; */
-    
-/* margin-left: 2px; */
-    
-margin-right: 8px;
-}
-.Mobile{
+margin: 0;
 
+padding: 0;
 }
-.Mobile img{
+footer ul li{
 
-/* height: 123%; */
+font-weight: 200;
 }
+footer ul li:first-child{
 
-
-.Mobile span{
-    display: inline-block;
-    height: 2px;
-    width: 70px;
-    position: relative;
-    
-}
-.Mobile span::before{
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 0%;
-    background-color: #008ed6;
-    left:0;
-    top: 0;
-    transition: .4s all ease-in-out;
-}
-.Mobile span::after{
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 0%;
-    background-color: #008ed6;
-    right:0;
-    top: 0;
-    transition: .4s all ease-in-out;
-}
-.mid_section{
-
-}
-.mid_section:hover .Mobile span::after{
-width: 45%;
-}
-.mid_section:hover .Mobile span::before{
-    width: 45%;
-}
-.iphone_section{
-    background-color: #f2f2f2;
-}
-.iphone{
-
-}
-.iphone h5{
-
-color: #008ed6;
-
-text-transform: uppercase;
-
-font-size: 10px;
-}
-.iphone h1{
-
-font-size: 30px;
-}
-.iphone p{color: #cfcfcf;margin-top: 13px;}
-.iphone li{
-color: #1b1b1b;
-list-style: none;
-}
-.iphone span{
-    display: inline-block;
-    height: 2px;
-    width: 70px;
-    position: relative;
-    
-}
-.iphone span::before{
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 0%;
-    background-color: #008ed6;
-    left:0;
-    top: 0;
-    transition: .4s all ease-in-out;
-}
-.iphone span::after{
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 0%;
-    background-color: #008ed6;
-    right:0;
-    top: 0;
-    transition: .4s all ease-in-out;
-}
-.iphone_section{
-
-}
-.iphone_section:hover .iphone span::after{
-width: 45%;
-}
-.iphone_section:hover .iphone span::before{
-    width: 45%;
+font-weight: 600;
 }
